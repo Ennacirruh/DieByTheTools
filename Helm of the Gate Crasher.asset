@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c40a8b667d8a848b4c7a98853635a0, type: 3}
+  m_Name: Helm of the Gate Crasher
+  m_EditorClassIdentifier: 
+  maxDefenceCharges: 1
+  defenceCharges: 1
+  triggerEffect: {fileID: 2581672993571028647, guid: 6893f09644ae32b45aca25cc109bd3d0, type: 3}
+  periodicTrigger: 1
+  periodicTriggerTime: 5
+  invincabilityTime: 5
