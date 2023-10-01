@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f468027f9e12dbd4da1e12bc34ea4c3d, type: 3}
+  m_Name: Dash Impact
+  m_EditorClassIdentifier: 
+  power: 1
+  penetration: 0
+  knockback: 40
+  createProjectile: 0
+  playerLocked: 0
+  projectile: {fileID: 0}
+  weapon: {fileID: 3359976454056981018, guid: 723c6419a98f6d24c81a21a0f067e8b6, type: 3}
+  burst: 1
+  positionSequence:
+  - {x: 0, y: 0}
+  positionFlollowThroughSequence:
+  - {x: 0, y: 0}
+  rotationSequence:
+  - 0
+  rotationFlollowThroughSequence:
+  - 0
+  seqeunceStep: 0
+  sequenceStepTime:
+  - 0.1
+  sequenceStepCooldown:
+  - 2

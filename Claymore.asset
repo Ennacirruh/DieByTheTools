@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f468027f9e12dbd4da1e12bc34ea4c3d, type: 3}
+  m_Name: Claymore
+  m_EditorClassIdentifier: 
+  power: 75
+  penetration: 5
+  knockback: 25
+  createProjectile: 0
+  playerLocked: 1
+  projectile: {fileID: 0}
+  weapon: {fileID: 3350282440601168969, guid: cc9fe8d6bb51ae544886f1e3d30833ed, type: 3}
+  burst: 1
+  positionSequence:
+  - {x: 0.5, y: 0}
+  - {x: -0.5, y: 0}
+  - {x: 1, y: 0}
+  positionFlollowThroughSequence:
+  - {x: -0.5, y: 0.25}
+  - {x: 0.5, y: 0.25}
+  - {x: 0, y: 0}
+  rotationSequence:
+  - -75
+  - 75
+  - -75
+  rotationFlollowThroughSequence:
+  - 115
+  - -115
+  - 280
+  seqeunceStep: 2
+  sequenceStepTime:
+  - 0.75
+  - 0.75
+  - 1
+  sequenceStepCooldown:
+  - 1
+  - 1
+  - 1.25
